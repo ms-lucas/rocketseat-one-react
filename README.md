@@ -14,7 +14,7 @@ A [Formação React (Ignite)](https://www.rocketseat.com.br/formacao/react) da R
 
 Os projetos estão organizados em diretórios próprios, cada um com seu respectivo README.md. Estes arquivos contêm informações detalhadas sobre o funcionamento de cada projeto, bem como os principais aprendizados aplicados.
 
-- [Projeto 01 - Ignite Feed](./ignitre/README.md)
+- [Projeto 01 - Ignite Feed](./ignite-feed)
 
 > ⚠️ **Nota:** Os nomes e links dos projetos serão atualizados à medida que o conteúdo for sendo desenvolvido.
 
@@ -23,7 +23,7 @@ Os projetos estão organizados em diretórios próprios, cada um com seu respect
 Aqui estão as principais ferramentas e tecnologias utilizadas durante a formação
 
 - ⚡ **Vite**  
-  Uma ferramenta de build extremamente rápida para aplicações web modernas, que oferece um ambiente de desenvolvimento ágil com atualizações instantâneas e configurações simplificadas. 
+  Uma ferramenta de build extremamente rápida para aplicações web modernas, que oferece um ambiente de desenvolvimento ágil com atualizações instantâneas e configurações simplificadas.  
   [Saiba mais](https://vitejs.dev/)
 
 - ⚛️ **React**  
