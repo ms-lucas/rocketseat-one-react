@@ -1,11 +1,11 @@
-import { format, formatDistanceToNow, set } from "date-fns";
+import { ChangeEvent, FormEvent, InvalidEvent, useState } from "react";
+import { format, formatDistanceToNow} from "date-fns";
 import { ptBR } from "date-fns/locale";
 
 import { Avatar } from "../Avatar";
 import { Comment } from "../Comment";
 
 import styles from "./styles.module.css";
-import { useState } from "react";
 
 interface PostProps {
   author: {
@@ -35,20 +35,20 @@ export function Post({ author, content, publishedAt }: PostProps) {
     addSuffix: true,
   });
 
-  function handleNewCommentInvalid(event) {
+  function handleNewCommentInvalid(event: InvalidEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity("Esse campo é obrigatório!");
   }
 
   function handleNewCommentChange(
-    event: React.ChangeEvent<HTMLTextAreaElement>
+    event: ChangeEvent<HTMLTextAreaElement>
   ) {
     event.target.setCustomValidity("");
     setNewCommentText(event.target.value);
   }
 
-  function handleCreateNewComment(event: React.FormEvent) {
+  function handleCreateNewComment(event: FormEvent) {
     event.preventDefault();
-    const newCommentText: string = event.target.comment.value;
+
     setComments([...comments, newCommentText]);
     setNewCommentText("");
   }
