@@ -30,6 +30,10 @@ export const HeaderWrapper = styled.header`
                 color: ${props => props.theme["green-500"]};
         }
 
+        &:focus {
+            box-shadow: none;
+        }
+
         }
         
     }
