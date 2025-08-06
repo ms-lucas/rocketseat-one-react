@@ -1,0 +1,68 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de Site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2025-08-05T14:18:47.392Z"
+    },
+    {
+      "id": 2,
+      "description": "Aluguel do apartamento",
+      "type": "outcome",
+      "category": "Casa",
+      "price": 1200,
+      "createdAt": "2025-08-05T14:18:47.392Z"
+    },
+    {
+      "id": 3,
+      "description": "Compras",
+      "type": "outcome",
+      "category": "Casa",
+      "price": 200,
+      "createdAt": "2025-08-05T14:18:47.392Z"
+    },
+    {
+      "description": "teste",
+      "price": 10,
+      "category": "Vendas",
+      "type": "income",
+      "createdAt": "2025-08-06T15:51:07.277Z",
+      "id": 4
+    },
+    {
+      "description": "teste",
+      "price": 20,
+      "category": "Vendas",
+      "type": "income",
+      "createdAt": "2025-08-06T15:53:13.263Z",
+      "id": 5
+    },
+    {
+      "description": "teste",
+      "price": 50,
+      "category": "Hamburguer",
+      "type": "outcome",
+      "createdAt": "2025-08-06T16:09:33.988Z",
+      "id": 6
+    },
+    {
+      "description": "teste",
+      "price": 10,
+      "category": "income",
+      "type": "outcome",
+      "createdAt": "2025-08-06T18:14:50.717Z",
+      "id": 7
+    },
+    {
+      "description": "teste",
+      "price": 10,
+      "category": "Vendas",
+      "type": "outcome",
+      "createdAt": "2025-08-06T18:37:08.294Z",
+      "id": 8
+    }
+  ]
+}
